@@ -136,8 +136,6 @@ namespace BL
 
             return result;
         }
-
-
         public static ML.Result UpdateLINQ(ML.Numerox numerox)
         {
             ML.Result result = new ML.Result();
@@ -172,7 +170,6 @@ namespace BL
 
             return result;
         }
-
         public static ML.Result DeleteLINQ(int idHistorial)
         {
             ML.Result result = new ML.Result();
@@ -244,8 +241,6 @@ namespace BL
 
             return result;
         }
-
-
         public static ML.Result GetByIdLINQ(int idHistorial)
         {
             ML.Result result = new ML.Result();
