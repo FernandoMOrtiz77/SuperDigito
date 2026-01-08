@@ -28,8 +28,7 @@ namespace DL
         }
     
         public virtual DbSet<Historial> Historials { get; set; }
-        
-
+    
         public virtual int DeleteHistorial()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("DeleteHistorial");
