@@ -32,7 +32,7 @@ namespace PL.Controllers
         }
 
         public ActionResult Delete()
-        {
+        { 
             BL.Numero.Delete();
             return RedirectToAction("SuperDigito");
         }
